@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.btn{
+    padding: 50px;
+    border: 1px solid rgba(73, 171, 136, 0.7);
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px 8px lightblue;
+margin: 0px 8px;
+transition: background-color 0.5s; 
+color: darkgoldenrod;
+
+}
+.btn:hover {
+    background-color: lightblue;
+}
+.timer{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+td{
+    padding: 5px;
+}
